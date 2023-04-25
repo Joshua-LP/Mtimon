@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feliz Cumpleaños Miguel</title>
+	<style>
+		body {
+			background-color: black;
+			color: white;
+			text-align: center;
+			font-size: 70px;
+			margin: 0;
+			padding: 0;
+		}
+		
+		#fireworks {
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			z-index: -1;
+		}
+		
+		@keyframes fireworks {
+			0% {background-position: 0 0;}
+			100% {background-position: -1440px 0;}
+		}
+		
+		#fireworks {
+			animation: fireworks 30s linear infinite;
+			background: url('https://fondos-animados.com/gifs/th_21_big.gif') repeat-x;
+			background-size: 1450px 1500px;
+			opacity: 0.8;
+		}
+
+		@media screen and (max-width: 480px) {
+			body {
+				font-size: 24px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1>Happy Birthday "Miguel"</h1>
+
+<div>	
+<img src="https://i.ibb.co/DDVy5dH/1.png" width="340" height="400"> 
+</div>
+
+<div>
+<img src="https://i.ibb.co/tqMVCqX/2.png" width="350" height="200">	
+</div>	
+
+<div>
+<img src="https://www.funimada.com/assets/images/cards/big/44th-birthday-59.gif" width="300" height="300">	
+</div>	
+
+
+	
+	<div id="fireworks"></div>
+	
+</body>
+</html>
